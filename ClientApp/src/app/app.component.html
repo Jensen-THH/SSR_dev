@@ -1,0 +1,9 @@
+<router-outlet></router-outlet>
+<p>{{'greeting' | translate }}</p>
+<hr />
+<button (click)="useLanguage('en')">English</button>
+<button (click)="useLanguage('vi')">Nederlands</button>
+
+<hr />
+First name: {{ someObject?.firstName }}
+Last name: {{ someObject?.lastName }}

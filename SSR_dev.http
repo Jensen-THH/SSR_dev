@@ -1,0 +1,6 @@
+@SSR_dev_HostAddress = http://localhost:5216
+
+GET {{SSR_dev_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SSR_dev.props" />
+</Project>
